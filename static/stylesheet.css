@@ -1,0 +1,48 @@
+
+.content {
+    max-width: 300px;
+    margin: auto;
+}
+
+.title {
+    margin: auto;
+    height: 50px;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    padding: 0px;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 8px;
+    margin: 5px 0px 5px 0px;
+    background: rgba(65, 126, 160, 0.85);
+    font-size: 17px;
+    color: white;
+    transition: 0.2s;
+    list-style-type: none;
+    text-align: center;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#command_current {
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-size: 22px;
+    background: #01a5fe;
+    color: white;
+}
